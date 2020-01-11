@@ -69,3 +69,33 @@ header {
 .nav-bar button a:hover,.nav-bar button a:active {
 background-color: #365899;
 }
+/*-----body css-------*/
+.main{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 2em;
+}
+.image-div {
+		width: 50%;
+		padding-right: 50px;
+		padding-top: 25px;
+}
+.image-div p {
+	font-size: 120%;
+	font-weight: 900;
+}
+.form-div {
+
+	width: 50%;
+	padding-left: 50px;
+}
+.form-div h2 {
+	font-size: 230%;
+	font-weight: 900;
+}
+.form-div p {
+	font-size: 120%;
+	font-weight: 500;
+}
