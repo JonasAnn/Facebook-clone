@@ -1,0 +1,71 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	color: #000;
+	font-size: 15px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+	font-family: 'Poppins', sans-serif;
+	text-rendering: optimizeLegibility;
+	background-color: #E9EBEE;
+}
+/*-------------------header css-------*/
+header {
+		background-color: #4664A0;
+		width: 100%;
+		height: 6em;
+}
+.nav-bar {
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	margin: auto;
+}
+.nav-bar h1 {
+	font-weight:900;
+	font-size: 250%;
+	margin-top: 30px;
+}
+.pword-div {
+	display: inline-block;
+	padding-left:5.5em;
+}
+
+.nav-div-two {
+	padding-top: 20px;
+}
+.input-div input {
+	margin-right: 1.5em;
+	border: 1px solid #000;
+	height: 1.7em;
+}
+.nav-bar a:link, .nav-bar a:visited  {
+	color: #9cb4d8;
+	text-decoration: none;
+	font-size:80%;
+	padding-left: 16.3em;
+}
+.nav-bar a:hover, .nav-bar a:active{
+	text-decoration: underline;
+}
+.nav-bar button a:link,.nav-bar button a:visited  {
+	background-color: #436fc2;
+		padding: 5px;
+		color: #fff;
+		font-size: 90%;
+		font-weight: bold;
+		text-decoration: none;
+		border:  1px solid #0707074f;
+		border-radius: 1px;
+		transition: background-color .5s;
+}
+.nav-bar button {
+	border:none;
+}
+.nav-bar button a:hover,.nav-bar button a:active {
+background-color: #365899;
+}
