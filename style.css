@@ -259,5 +259,15 @@ width: 40%;
 		width: 100%;
 	
 }
+.nav-bar a:link, .nav-bar a:visited  {
+	padding-left: 8.3em;
+}
+.nav-div-two {
+padding-top: 10px;
+}
+.pword-div {
+	display: inline-block;
+	padding-left:2.5em;
+}
 }
 @media only screen and (max-width: 768px) 
