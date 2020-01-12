@@ -12,9 +12,13 @@ html {
 	text-rendering: optimizeLegibility;
 	background-color: #E9EBEE;
 }
+<<<<<<< HEAD
+
+=======
 body {
 	width: 100vw;
 }
+>>>>>>> 30220391ef11b01d9b5e89f37e4f0ab48fbdf56a
 /*-------------------header css-------*/
 header {
 		background-color: #4664A0;
@@ -263,7 +267,7 @@ width: 40%;
 	
 }
 .nav-bar a:link, .nav-bar a:visited  {
-	padding-left: 11.3em;
+	padding-left: 10.8em;
 }
 .nav-div-two {
 padding-top: 10px;
