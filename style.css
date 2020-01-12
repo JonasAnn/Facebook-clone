@@ -75,12 +75,15 @@ background-color: #365899;
 	margin: auto;
 	display: flex;
 	justify-content: center;
-	margin-top: 2em;
+	margin-top: 1em;
 }
 .image-div {
 		width: 50%;
 		padding-right: 50px;
 		padding-top: 25px;
+}
+.image-div img {
+	max-width: 110%;
 }
 .image-div p {
 	font-size: 120%;
@@ -98,4 +101,112 @@ background-color: #365899;
 .form-div p {
 	font-size: 120%;
 	font-weight: 500;
+	margin-bottom: 1em;
+}
+.name-text {
+	height:38px;
+	margin-right: 10px;
+	width: 210px;
+		border: 1px solid #BDC7D8;
+    border-radius: 5px;
+    margin-bottom: .7em;
+}
+.name-text::placeholder {
+	font-size: 120%;
+	padding-left: .5em;
+	color: #a5b3ca;
+}
+.address {
+width: 32.5em;
+height:38px;
+		border: 1px solid #BDC7D8;
+    border-radius: 5px;
+    margin-bottom: .7em;
+}
+.address::placeholder {
+	font-size: 120%;
+	padding-left: .5em;
+	color: #a5b3ca;
+}
+#Birthday {
+	color: #444950;
+	font-weight: 900;
+	margin-bottom: .2em;
+}
+select {
+	padding:.5em .5em;
+	margin-bottom: 1em;
+}
+.font {
+	display: inline-block;
+	margin-left: .6em;
+	font-size: 130%;
+	color: #444950;
+}
+#gender {
+	color: #444950;
+	font-weight: 900;
+	margin-bottom: .5em;
+}
+.radio-text {
+	padding-right: 20px;
+	font-size: 110%;
+}
+#policy-text {
+	font-size: 75%;
+	max-width: 65%;
+	margin-top: 1em;
+	font-weight: 300;
+}
+#policy-text a{
+	text-decoration: none;
+}
+.btn {
+    border: none;
+    background-color: #69a74e;
+    color: #fff;
+    padding: 7px 6em;
+    border-radius: 5px;
+    font-size: 100%;
+    font-weight: 800;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+   text-shadow: 0 1px 2px rgba(0,0,0,.5);
+ 	    box-shadow: 0 1px 1px #a4e388;
+ 	    background: linear-gradient(#67ae55, #578843);
+}
+.btn-div {
+		width: 30%;
+	height: 4em;
+	position: absolute;
+	
+}
+.btn:hover, .btn:active {
+animation-name: button-move;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+@keyframes button-move {
+	0% {
+		top: 0;
+		background: linear-gradient(#67ae55, #a4e388);
+	}
+	100% {
+		top: 4px;
+		background: linear-gradient(#67ae55, #a4e388);
+	}
+}
+hr {
+	margin-top: 4.5em;
+	border: 1px solid #dddfe2;
+	width:70%;
+}
+#last-p {
+	font-size: 80%;
+	margin-top: .5em;
+	font-weight: 300;
+}
+#last-p a{
+	text-decoration: none;
 }
