@@ -12,6 +12,9 @@ html {
 	text-rendering: optimizeLegibility;
 	background-color: #E9EBEE;
 }
+body {
+	width: 100vw;
+}
 /*-------------------header css-------*/
 header {
 		background-color: #4664A0;
