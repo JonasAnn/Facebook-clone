@@ -210,3 +210,46 @@ hr {
 #last-p a{
 	text-decoration: none;
 }
+@media only screen and (max-width: 600px) {
+	.nav-bar {
+	flex-direction: column;
+	width: 90%;
+	
+}
+
+header {
+		height: auto;
+		padding-bottom: .5em;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 90%;
+}
+.image-div{
+	display: none;
+}
+.input-div input {
+	margin-right: 1em;
+width: 40%;
+	height: 1.7em;
+}
+.form-div {
+	width: 90%;
+}
+.form-div h2 {
+	font-size: 170%;
+	font-weight: 800;
+}
+.address {
+		width: 80%;
+}
+.name-text {
+	width: 80%;
+}
+.btn-div {
+		width: 70%;
+	
+}
+}
