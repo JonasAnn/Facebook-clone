@@ -236,7 +236,7 @@ width: 40%;
 	height: 1.7em;
 }
 .form-div {
-	width: 90%;
+	width: 95%;
 }
 .form-div h2 {
 	font-size: 170%;
@@ -247,9 +247,10 @@ width: 40%;
 }
 .name-text {
 	width: 80%;
-}
+}9
 .btn-div {
-		width: 70%;
+		width: 0%;
 	
 }
 }
+@media only screen and (max-width: 768px) 
