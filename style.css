@@ -212,7 +212,7 @@ hr {
 @media only screen and (max-width: 600px) {
 	.nav-bar {
 	flex-direction: column;
-	width: 90%;
+	width: 95%;
 	
 }
 
@@ -224,31 +224,39 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 90%;
+	width: 95%;
+	padding-left: 1em;
 }
 .image-div{
 	display: none;
 }
 .input-div input {
-	margin-right: 1em;
+	margin-right: 0;
 width: 40%;
 	height: 1.7em;
 }
 .form-div {
 	width: 95%;
+	padding-left: 0;
+	margin: auto;
 }
 .form-div h2 {
 	font-size: 170%;
 	font-weight: 800;
+}
+.radio-text {
+	padding-right: 5px;
+	font-size: 110%;
 }
 .address {
 		width: 80%;
 }
 .name-text {
 	width: 80%;
-}9
+}
+
 .btn-div {
-		width: 0%;
+		width: 100%;
 	
 }
 }
