@@ -3,4 +3,4 @@
 ### Contributor
 Jonas Ann
 
-view @ https://jonasann.github.io/Facebook-clone/
+View @ https://jonasann.github.io/Facebook-clone/
