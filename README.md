@@ -1,8 +1,19 @@
 # Facebook-clone
 
-### Contributor
-Jonas Ann
+My cloned version of Facebook [official website](https://web.facebook.com/?_rdc=1&_rdr), called CrunchBook.
 
-#My version of Facebook, ideas and changes are welcome.
+## Language Used
 
-View @ https://jonasann.github.io/Facebook-clone/
+- HTML
+- CSS
+
+[Preview Project](https://jonasann.github.io/Facebook-clone/)
+
+## Commit Guide
+
+[Click to View guide](http://udacity.github.io/git-styleguide/)
+
+### Contributors
+
+[JonasAnn](https://github.com/JonasAnn)
+
